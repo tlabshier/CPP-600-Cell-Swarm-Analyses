@@ -1,0 +1,11 @@
+[
+  {
+    "entry": 1,
+    "title": "Galaxy Spin Asymmetry",
+    "p_value": 1e-5,
+    "handedness_bias": 0.04,
+    "overlap_notes": "Shares CMB data with #18",
+    "source_file": "swarm-01.tex"
+  },
+  // ... for all 78
+]
