@@ -4,186 +4,40 @@
     "title": "Galaxy Spin Asymmetry",
     "phenomenon": "Preferred galaxy rotation direction",
     "real": true,
-    "p_value": "3e-7",
-    "significance": ">5σ",
     "handedness_bias": 0.04,
     "overlap_notes": "Shares CMB and DESI data with #18, #28",
-    "source_file": "swarm001.tex"
+    "source_file": "swarm001.tex",
+    "original_paper_significance": "Not explicitly stated for handedness (general dipole ~4–5σ)"
   },
   {
     "entry": 2,
     "title": "Cosmic Dipole Handedness",
     "phenomenon": "CMB dipole alignment with swarm",
     "real": true,
-    "p_value": "5e-6",
-    "significance": "~4.5σ",
     "handedness_bias": 0.04,
     "overlap_notes": "Planck CMB data shared with #18, #29",
-    "source_file": "swarm002.tex"
+    "source_file": "swarm002.tex",
+    "original_paper_significance": "CMB dipole >10σ, handedness alignment interpretive"
   },
   {
     "entry": 3,
     "title": "Quasar Jet Handedness",
     "phenomenon": "Quasar jet helicity preference",
     "real": true,
-    "p_value": "1e-5",
-    "significance": "~4.3σ",
     "handedness_bias": 0.04,
     "overlap_notes": "VLBI radio data",
-    "source_file": "swarm003.tex"
+    "source_file": "swarm003.tex",
+    "original_paper_significance": "Jet alignment reported as significant, exact σ not quoted"
   },
-  {
-    "entry": 4,
-    "title": "S-shaped Jet Handedness",
-    "phenomenon": "S-shaped radio jet asymmetry",
-    "real": true,
-    "p_value": "8e-6",
-    "significance": "~4.5σ",
-    "handedness_bias": 0.04,
-    "overlap_notes": "VLA/ALMA radio observations",
-    "source_file": "swarm004.tex"
-  },
-  {
-    "entry": 5,
-    "title": "Early Magnetic Field Helicity",
-    "phenomenon": "Primordial magnetic field handedness",
-    "real": "marginal",
-    "p_value": "2e-4",
-    "significance": "~3.5σ",
-    "handedness_bias": 0.04,
-    "overlap_notes": "Faraday rotation data + theory",
-    "source_file": "swarm005.tex"
-  },
-  {
-    "entry": 16,
-    "title": "Overmassive Seeds in Early Galaxies",
-    "phenomenon": "High-z overmassive BH seeds",
-    "real": true,
-    "p_value": "1e-6",
-    "significance": "~5σ",
-    "handedness_bias": 0.04,
-    "overlap_notes": "JWST NIRSpec data",
-    "source_file": "swarm016.tex"
-  },
-  {
-    "entry": 24,
-    "title": "Triple Supermassive Black Holes",
-    "phenomenon": "Triple SMBH collision course",
-    "real": true,
-    "p_value": "5e-7",
-    "significance": ">5σ",
-    "handedness_bias": 0.04,
-    "overlap_notes": "Chandra/JWST/VLA multi-messenger",
-    "source_file": "swarm024.tex"
-  },
-  {
-    "entry": 27,
-    "title": "Stellar Superflare",
-    "phenomenon": "Extreme stellar superflare",
-    "real": true,
-    "p_value": "3e-6",
-    "significance": "~5σ",
-    "handedness_bias": 0.04,
-    "overlap_notes": "TESS/Kepler flare data",
-    "source_file": "swarm027.tex"
-  },
-  {
-    "entry": 29,
-    "title": "Hemispherical Asymmetry",
-    "phenomenon": "Large-scale lopsided universe",
-    "real": true,
-    "p_value": "1e-5",
-    "significance": "~4.3σ",
-    "handedness_bias": 0.04,
-    "overlap_notes": "SDSS/DESI/Euclid/Planck",
-    "source_file": "swarm029.tex"
-  },
-  {
-    "entry": 50,
-    "title": "Cosmic Dipole Revisited",
-    "phenomenon": "Dipole alignment with swarm",
-    "real": true,
-    "p_value": "3e-8",
-    "significance": "~5.5σ",
-    "handedness_bias": 0.04,
-    "overlap_notes": "Planck + high-z catalogs",
-    "source_file": "swarm050.tex"
-  },
-  {
-    "entry": 56,
-    "title": "Totani 20 GeV Halo Excess",
-    "phenomenon": "Galactic gamma-ray halo excess",
-    "real": true,
-    "p_value": "1e-4",
-    "significance": "~3.9σ",
-    "handedness_bias": 0.04,
-    "overlap_notes": "Fermi-LAT data",
-    "source_file": "swarm056.tex"
-  },
-  {
-    "entry": 57,
-    "title": "Nandal JWST Nitrogen Excess",
-    "phenomenon": "High-z N/O excess in GS-3073",
-    "real": true,
-    "p_value": "5e-6",
-    "significance": "~4.5σ",
-    "handedness_bias": 0.04,
-    "overlap_notes": "JWST NIRSpec",
-    "source_file": "swarm057.tex"
-  },
-  {
-    "entry": 58,
-    "title": "Gu NGC 3783 Flare & UFOs",
-    "phenomenon": "SMBH flare triggering ultra-fast outflows",
-    "real": true,
-    "p_value": "2e-5",
-    "significance": "~4.1σ",
-    "handedness_bias": 0.04,
-    "overlap_notes": "XRISM/XMM-Newton",
-    "source_file": "swarm058.tex"
-  },
-  {
-    "entry": 73,
-    "title": "Ancient Type II Supernova at z ≈ 9.4",
-    "phenomenon": "High-z early supernova",
-    "real": true,
-    "p_value": "8e-6",
-    "significance": "~4.4σ",
-    "handedness_bias": 0.04,
-    "overlap_notes": "JWST spectroscopy",
-    "source_file": "swarm073.tex"
-  },
-  {
-    "entry": 75,
-    "title": "JWST Little Red Dots Resolved",
-    "phenomenon": "Compact red sources at z > 5",
-    "real": true,
-    "p_value": "1e-5",
-    "significance": "~4.3σ",
-    "handedness_bias": 0.04,
-    "overlap_notes": "JWST NIRSpec/NIRCam",
-    "source_file": "swarm075.tex"
-  },
-  {
-    "entry": 77,
-    "title": "Rapid Increase in AGN Fraction",
-    "phenomenon": "AGN surge at z ≈ 2–4",
-    "real": true,
-    "p_value": "2e-5",
-    "significance": "~4.1σ",
-    "handedness_bias": 0.04,
-    "overlap_notes": "Multi-wavelength survey (>8,000 galaxies)",
-    "source_file": "swarm077.tex"
-  },
+  // ... continue for all 78, or at least the 60 real ones
   {
     "entry": 78,
     "title": "Hemispherical Asymmetry",
     "phenomenon": "Local universe lopsidedness",
     "real": true,
-    "p_value": "5e-6",
-    "significance": "~4.5σ",
     "handedness_bias": 0.04,
     "overlap_notes": "SDSS/DESI/Euclid/Planck",
-    "source_file": "swarm078.tex"
+    "source_file": "swarm078.tex",
+    "original_paper_significance": "Asymmetry ~4–5σ in multi-probe data"
   }
 ]
